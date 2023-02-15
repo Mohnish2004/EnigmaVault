@@ -62,6 +62,8 @@ while choice != '1' or choice !='2':
     if menu =='3':
         exit()
 '''
+import re
+
 class Credentials:
     def __init__(self, website, username, password):
         self.website = website
@@ -111,18 +113,33 @@ class Credentials:
                 data = line.strip().split("{|}")
                 print(self.decrypt(data[0]) + "\t\t" + self.decrypt(data[1]) + "\t" + "*" * (len(data[2]) - 1))
 
+    def strength_checker(self, password):
+        if len(password) < 8:
+            return "weak"
+        elif re.search("[a-z]", password) is None:
+            return "weak"
+        elif re.search("[A-Z]", password) is None:
+            return "weak"
+        elif re.search("[0-9]", password) is None:
+            return "weak"
+        else:
+            return "strong"
+
     def menu(self):
         choice = 0
-        while choice != '1' or choice != '2':
+        while choice != '3':
             print('''What would you like to do
                       1. Input new credentials
                       2. View old credentials
-                      3. quit''')
+                      3. Quit''')
             choice = input()
             if choice == '1':
                 website_name = input("Enter the name of the website: ")
                 username = input("Enter the username: ")
                 password = input("Enter the password: ")
+                while self.strength_checker(password) == "weak":
+                    print("Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, and one digit")
+                    password = input("Enter the password: ")
                 cred = Credentials(website_name, username, password)
                 cred.write_to_file()
             elif choice == '2':
@@ -138,7 +155,5 @@ class Credentials:
             else:
                 print("Invalid input")
 
-
 cred = Credentials("", "", "")
 cred.menu()
-
