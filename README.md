@@ -1,5 +1,6 @@
 
-![Screen_Shot_2023-02-28_at_11 38 39_PM-removebg-preview](https://user-images.githubusercontent.com/81405395/222273484-1bbcaae5-f2b8-4efe-be0e-ae6c7da24667.png)
+![Team Engima (1)](https://user-images.githubusercontent.com/81405395/222274620-8177402d-1fb5-42f6-9df6-85135f7f1a4e.png)
+
 
 
 https://user-images.githubusercontent.com/81405395/222273422-bcaaaaf6-2e52-426f-b6ff-b0151a2a414d.mov
@@ -67,7 +68,7 @@ Use the copy button to copy a password to the clipboard
 
 ## Contributing
 
-Team Enigma GDSC 2023 WINTER
+![Team Engima](https://user-images.githubusercontent.com/81405395/222274657-b1f18a6f-51b3-4146-adf5-9aee1ec654bf.png)
 
 ## License
 
