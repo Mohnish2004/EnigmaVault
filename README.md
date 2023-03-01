@@ -1,3 +1,10 @@
+
+![Screen_Shot_2023-02-28_at_11 38 39_PM-removebg-preview](https://user-images.githubusercontent.com/81405395/222273484-1bbcaae5-f2b8-4efe-be0e-ae6c7da24667.png)
+
+
+https://user-images.githubusercontent.com/81405395/222273422-bcaaaaf6-2e52-426f-b6ff-b0151a2a414d.mov
+
+
 # Enigma Vault
 
 Enigma Vault is a secure local password manager that uses multiple encryption techniques to protect your login information. It features Caesar encryption, UTF-8 encoding, and Enigma encryption, with AES/DES/RSA coming soon. By utilizing these encryption methods, Enigma Vault offers a high level of security for your sensitive data while also educating users about these cipher techniques. With Enigma Vault, you can store and manage all your passwords with peace of mind.
