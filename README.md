@@ -1,7 +1,4 @@
-
-![Team Engima (1)](https://user-images.githubusercontent.com/81405395/222274620-8177402d-1fb5-42f6-9df6-85135f7f1a4e.png)
-
-
+![Screen_Shot_2023-02-28_at_11 38 39_PM-removebg-preview](https://user-images.githubusercontent.com/81405395/222274850-3b171579-70d5-4ece-954f-2d5ea7ad61a6.png)
 
 https://user-images.githubusercontent.com/81405395/222273422-bcaaaaf6-2e52-426f-b6ff-b0151a2a414d.mov
 
