@@ -18,8 +18,4 @@ def Caesar_encrypt(input,shift=11):
             encrypted += char
     return encrypted
 
-rotors = ("I","II","III")
-reflector = "UKW-B"
-ringSettings ="ABC"
-ringPositions = "DEF"
-plugboard = "AT BS DE FM IR KN LZ OW PV XY"
+

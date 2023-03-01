@@ -26,16 +26,15 @@ def passGenerator():
         window.clipboard_append(pwEntry.get())
 
 
-    # Label frame.
     lf = LabelFrame(window, text="How many characters?")
     lf.pack(pady=20)
 
     # Create Entry Box for number of characters.
-    myEntry = Entry(lf, font=("Helvetica", 12))
+    myEntry = Entry(lf, font=("Helvetica", 13))
     myEntry.pack(pady=20, padx=20)
 
     # Create entry box for returned password.
-    pwEntry = Entry(window, text="", font=("Helvetica", 12), bd=0, bg="black")
+    pwEntry = Entry(window, text="", font=("Helvetica", 13), bd=0, bg="black")
     pwEntry.pack(pady=20)
 
     # Frame for buttons.

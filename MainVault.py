@@ -9,9 +9,9 @@ import tkinter as tk
 from passgen import passGenerator
 
 
-# Database Code
+# Database_connection
 
-with sqlite3.connect("password_vault.db") as db:
+with sqlite3.connect("Enigma_vault.db") as db:
     cursor = db.cursor()
 
 cursor.execute("""
@@ -28,7 +28,7 @@ account TEXT NOT NULL,
 password TEXT NOT NULL);
 """)
 
-# Create PopUps
+# Creating different PopUps
 
 def copyPass1(password):
     window.clipboard_clear()
@@ -49,11 +49,9 @@ def popUp_button(text, password):
         copyPass1(password)
         m="Password copied sucessfully"
         answer3 = messagebox.showinfo("Nice",m)
+  
         
-
-    
-        
-# Initiate Window
+# Initiating Window
 
 window = Tk()
 window.update() 
@@ -62,8 +60,7 @@ window.title("ENIGMA VAULT")
 
 
 
-# encryptions
-
+# Encryptions for master password
 def UTF_encrypt(input):
     hash1 = hashlib.md5(input)
     hash1 = hash1.hexdigest()
@@ -264,7 +261,7 @@ def Enigma_encrypt(plaintext):
 button_clicks = []
 
 
-#   Set up master password screen #######################################
+#   Setting up master password displat
 
 def firstTimeScreen():
     window.geometry("250x150")
@@ -284,7 +281,7 @@ def firstTimeScreen():
     txt1 = Entry(window, width=20, show="*")
     txt1.pack()
 
-
+    # Check which encryption is chosen
     def Caesar_clicked():
         global button_clicks
         button_clicks.append("Caesar")
@@ -298,7 +295,7 @@ def firstTimeScreen():
         button_clicks.append("Enigma")
         
 
-
+    # Saving Password after encryptions
     def savePassword_UTF():
         if txt.get() == txt1.get():
             hashedPassword = UTF_encrypt(txt.get().encode('utf-8'))
@@ -340,20 +337,18 @@ def firstTimeScreen():
         else:
             lbl.config(text="Passwords don't match")
 
-    btn = Button(window, text="Save with caesar code", command=savePassword_Caesar)
-    btn.pack(pady=5)
-    btn = Button(window, text="Save with UTF encode", command=savePassword_UTF)
-    btn.pack(pady=5)
+
     btn = Button(window, text="Save with Enigma encode", command=savePassword_Enigma)
     btn.pack(pady=5)
-    
 
     
 
+    
 
 
 
-#   Login screen #######################################
+
+#   Login screen display
 
 def loginScreen():
     window.geometry("500x125")
@@ -404,8 +399,7 @@ def loginScreen():
 
 encryption_type=[]
 
-
-#   Vault functionalities #######################################
+#   Vault Menu functions
 
 def vaultScreen():
     for widget in window.winfo_children():
@@ -503,31 +497,10 @@ def vaultScreen():
         myButton2 = Button(myFrame, text="ENIGMA",command=Enigma_clicked())
         myButton2.grid(row=1, column=2, padx=10)
 
-    # Frame for buttons.
         myFrame = Frame(window)
         myFrame.pack(pady=20)
         print(encryption_type)
-
-
-
-
         window.mainloop()
-
-
-
-
-
-
-        
-
-    
-
-
-
-
-
-
-
 
 #   Window layout 
 
@@ -573,14 +546,7 @@ def vaultScreen():
     cursor.execute("SELECT * FROM vault")
 
 
-
-
-
-
-
-
-
-#   Buttons Layout #######################################
+#   Buttons Layout
 
     show_buttons = [] # create a list to store the Show/Hide buttons
     if cursor.fetchall() is not None:
@@ -627,7 +593,6 @@ def vaultScreen():
             cursor.execute("SELECT * FROM vault")
             if len(cursor.fetchall()) <= i:
                 break
-print(encryption_type)
 
 cursor.execute("SELECT * FROM masterpassword")
 if cursor.fetchall():
