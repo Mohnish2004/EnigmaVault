@@ -6,9 +6,13 @@ Enigma Vault is a secure local password manager that uses multiple encryption te
 # Basic Features 
 
 *Securely store your passwords and login information with Enigma Vault, a local password manager that offers a high level of security for your sensitive data.
+
 *Generate strong, random passwords using the passGenerator library, which saves you time and ensures that your passwords are difficult to guess.
+
 *Encrypt your master password using multiple encryption techniques, including Caesar encryption, UTF-8 encoding, and Enigma encryption, with AES/DES/RSA coming soon.
+
 *Enigma encryption, one of the encryption techniques used by Enigma Vault, was inspired by the famous Enigma machine used by the Germans during World War II. This machine was famously cracked by Alan Turing and his team, as depicted in the movie "The Imitation Game".
+
 *Enjoy a range of features, including show/hide passwords, add/delete/update/search credentials, and copy-to-clipboard, that make password management easy and convenient.
 
 ## Installation
