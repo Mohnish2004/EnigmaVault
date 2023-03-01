@@ -35,17 +35,17 @@ import tkinter as tk
 ## User Interface
 The user interface will be implemented using the tkinter module. The application will have the following components:
 
-Master Password setup: This window will be shown the first time, and you need to remember this password for the next logins 
+>Master Password setup: This window will be shown the first time, and you need to remember this password for the next logins 
 
-Login window: This window will prompt the user for the master password
+>Login window: This window will prompt the user for the master password
 
-Main window: This window will display a list of stored passwords and allow the user to add, edit, delete passwords and other functions
+>Main window: This window will display a list of stored passwords and allow the user to add, edit, delete passwords and other functions
 
-Add credential dialog: This dialog will allow the user to add a new password to the database.
+>Add credential dialog: This dialog will allow the user to add a new password to the database.
 
-Update password dialog: This dialog will allow the user to edit an existing password in the database.
+>Update password dialog: This dialog will allow the user to edit an existing password in the database.
 
-Generate password dialog: This dialog will allow the user to generate a strong, random password using the passgen module.
+>Generate password dialog: This dialog will allow the user to generate a strong, random password using the passgen module.
 
 ## Usage
 
