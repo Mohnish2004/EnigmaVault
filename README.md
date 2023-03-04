@@ -1,4 +1,4 @@
-![Team Engima](https://user-images.githubusercontent.com/81405395/222884906-71ea2f17-2d8f-4699-a631-2eb903ee2ea4.png)
+![Screen_Shot_2023-02-28_at_11 38 39_PM-removebg-preview](https://user-images.githubusercontent.com/81405395/222884977-f13715de-67ba-463b-a6b8-fdbb57b5f3f9.png)
 
 https://user-images.githubusercontent.com/81405395/222273422-bcaaaaf6-2e52-426f-b6ff-b0151a2a414d.mov
 
@@ -65,7 +65,7 @@ Use the copy button to copy a password to the clipboard
 
 ## Contributing
 
-![Team Engima](https://user-images.githubusercontent.com/81405395/222274657-b1f18a6f-51b3-4146-adf5-9aee1ec654bf.png)
+![Team Engima](https://user-images.githubusercontent.com/81405395/222884906-71ea2f17-2d8f-4699-a631-2eb903ee2ea4.png)
 
 Presentations - https://www.canva.com/design/DAFb6gjbVCU/0KLLIe2q4y1NRNW95OznQQ/edit?utm_content=DAFb6gjbVCU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
