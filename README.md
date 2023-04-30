@@ -22,6 +22,8 @@ Enigma Vault is a secure local password manager that uses multiple encryption te
 
 ## Installation
 
+### Need to add clone repository instructions sometime in the future....
+
 This document outlines the requirements for a Python application that will make use of the following modules:
 
 hashlib, sqlite3, functools, tkinter, passgen
