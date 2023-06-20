@@ -64,6 +64,8 @@ Edit or delete existing entries as needed
 
 Use the copy button to copy a password to the clipboard
 
+Coming soon...
+
 
 ## Contributing
 
